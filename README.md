@@ -1,16 +1,21 @@
-# state_flutter
+<h1 align="center">setState</h1>
 
-A new Flutter project.
+Este projeto básico em Flutter, chamado state_flutter, demonstra como usar setState para gerenciar mudanças de estado (local). 
+A aplicação apresenta uma tela principal com um texto inicial "Olá, elvis.com" e um botão. 
+Ao pressionar o botão, o texto muda para "Estado Alterado!" e o fundo da tela alterna entre branco e azul.
 
-## Getting Started
+** Ideal para mudanças locais dentro de um widget específico
 
-This project is a starting point for a Flutter application.
+Como Funciona
+_HomePageState: Define o estado da aplicação com as variáveis displayText e backgroundColor.
 
-A few resources to get you started if this is your first Flutter project:
+setState: Atualiza o estado dentro da função changeText, modificando o texto e a cor de fundo.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Interface: A interface inclui um AppBar com o título "State Flutter", e um ElevatedButton que ao ser pressionado executa changeText.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Este exemplo simples e direto ilustra o uso essencial de setState no Flutter para re-renderizar a UI em resposta a mudanças de estado. Perfeito para entender os fundamentos da gestão de estado em aplicativos Flutter.
+
+
+![1](https://github.com/user-attachments/assets/f0f27bdd-3027-465c-b5d8-e147788a1088)
+![2](https://github.com/user-attachments/assets/1ba603fd-f120-4326-9193-33e62bb8eb57)
+
